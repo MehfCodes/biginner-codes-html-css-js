@@ -1,0 +1,202 @@
+body
+{
+    font-family: sans-serif , serif , Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-origin: border-box; 
+    
+}
+.layout
+{
+    max-width: 1200px;
+    max-height: 610px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 300px;
+    height: 500px;
+   /* border: 1px solid black;*/
+    margin-top: 30px;
+    margin-left: 105px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    box-sizing: border-box;
+}
+form
+{
+    border: none;
+    border-radius: 15px;
+    width: 270px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+    
+    box-shadow: 3px 3px 10px rgba(12, 12, 12, 0.877),
+               -1px -1px 5px rgba(12, 12, 12, 0.336); 
+}
+input
+{
+    height: 50px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    background: transparent;
+    text-align: center;
+    color: black;
+    outline: none;
+    border-top:none;
+    border-left: none;
+    border-right: none; 
+    border-bottom: 2px solid rgb(126, 126, 126);
+    font-weight: 700;
+    font-size: 15px;
+}
+::placeholder{
+    color: rgba(0, 0, 0, 0.753);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/*#btn
+{
+    width:270px;
+    height: 30px;
+    background-color: #ff0066 ;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    outline: none;
+    box-shadow: 0px 0px 1px  white,
+               1px 1px 2px #ff3366,
+               2px   2px   3px  rgba(7, 6, 6, 0.952);
+    transition: all 0.4s;
+    text-decoration: none;
+}
+#btn:hover
+{
+   box-shadow: 0 0 1px white;
+   cursor: pointer;
+}
+
+#a2{
+
+width: 270px;
+    
+}
+#btn a:link
+{
+    color: white; 
+    text-decoration: none;   
+    
+}
+#btn a:hover
+{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+#btn a:active
+{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 13px;
+}
+#btn a:visited
+{
+    color:white;
+    cursor: pointer;
+    text-decoration: none;
+}*/
+#click
+{
+    width: 270px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #ff0066 ;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 17px ;
+    color: white;
+    outline: none;
+    box-shadow: 0px 0px 1px  white,
+               1px 1px 2px #ff3366,
+               2px   2px   3px  rgba(7, 6, 6, 0.952);
+    transition: all 0.4s;
+    line-height: 1.8;
+}
+ a:link
+{
+    color: white; 
+    text-decoration: none;   
+    
+}
+a:hover
+{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:active
+{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 13px;
+}
+ a:visited
+{
+    color:white;
+    cursor: pointer;
+    text-decoration: none;
+}
+#click:hover
+{
+   box-shadow: 0 0 1px white;
+   cursor: pointer;
+}
+#item1{
+    animation: i1 2s;
+}
+#item2{
+    
+    position: absolute;
+    
+    top:-80px;
+    animation-name: i2;
+    animation-duration: 2s;
+}
+@keyframes i2{
+    from{
+        
+    }
+    to{
+         position: absolute;
+         right: -700px;
+         top:8px;
+    }
+}
+@keyframes i1{
+    0%{
+        
+    }
+    100%{
+        margin-top: 30px;
+        margin-left: -1005px;
+        
+    }
+}

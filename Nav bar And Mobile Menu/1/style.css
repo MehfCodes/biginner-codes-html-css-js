@@ -1,0 +1,94 @@
+body
+{
+    background: rgba(247,247,247,1);
+background: -moz-linear-gradient(-45deg, rgba(247,247,247,1) 32%, rgba(247,247,247,1) 42%, rgba(240,240,240,1) 70%, rgba(240,240,240,1) 86%);
+background: -webkit-gradient(left top, right bottom, color-stop(32%, rgba(247,247,247,1)), color-stop(42%, rgba(247,247,247,1)), color-stop(70%, rgba(240,240,240,1)), color-stop(86%, rgba(240,240,240,1)));
+background: -webkit-linear-gradient(-45deg, rgba(247,247,247,1) 32%, rgba(247,247,247,1) 42%, rgba(240,240,240,1) 70%, rgba(240,240,240,1) 86%);
+background: -o-linear-gradient(-45deg, rgba(247,247,247,1) 32%, rgba(247,247,247,1) 42%, rgba(240,240,240,1) 70%, rgba(240,240,240,1) 86%);
+background: -ms-linear-gradient(-45deg, rgba(247,247,247,1) 32%, rgba(247,247,247,1) 42%, rgba(240,240,240,1) 70%, rgba(240,240,240,1) 86%);
+background: linear-gradient(135deg, rgba(247,247,247,1) 32%, rgba(247,247,247,1) 42%, rgba(240,240,240,1) 70%, rgba(240,240,240,1) 86%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#f0f0f0', GradientType=1 );
+
+}
+.header
+{
+    max-width: 100%;
+    max-height: 80px;
+    position: sticky;
+}
+.navbar
+{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    margin-right: 45px;
+}
+nav a{
+    margin-left: 40px;
+    color:rgb(71, 71, 71);
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+}
+a:link
+{
+   
+    text-decoration: none;
+}
+a:hover
+{
+   
+    transform: scale(1.09);
+}
+a:active
+{
+    color: black;
+    transform: scale(0.9);
+}
+a:visited
+{
+    text-decoration: none;
+}
+.one
+{
+    color: rgb(168, 18, 18);
+}
+#checkbox,label
+{
+    display: none;
+}
+
+@media only screen and (max-width:600px)
+{
+    .navbar
+    {
+        display: none;
+        text-align: center;
+        width: 100%;
+    }
+    .navbar a {
+        clear: right;
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+        line-height: 50px;
+
+    }
+    a:hover{
+        transform: scale(1);
+    }
+    label
+    {
+        display: block;
+        width: 26px;
+        float: right;
+        cursor: pointer;
+    }
+    #checkbox:checked + .navbar
+    {
+        display: block;
+    }
+}

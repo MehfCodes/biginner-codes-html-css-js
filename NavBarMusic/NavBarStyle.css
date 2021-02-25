@@ -1,0 +1,35 @@
+.layout{
+	width: 1356px;
+	height: 655px;
+	box-sizing: border-box;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+
+}
+.bg{
+	width: 1356px;
+	height: 625px;
+	background-image: url('1.jpg');
+	background-size:cover;
+
+}
+.Nav{
+	width: 1356px;
+	height: 30px;
+	background-color: black;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+  align-items: center;
+}
+.items{
+	color: white;
+font-size: 16.5px;
+font-weight: bold;
+font-family: tahoma;
+text-shadow: 0 0 5px 0.4 gray;
+}

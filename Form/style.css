@@ -1,0 +1,117 @@
+body {
+    background: #fff;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Sans-Serif;
+  }
+  
+  #container
+  {
+    width: 300px;
+    height: 400px;
+    background-color: #F7F7F7;
+    box-shadow: 2px 2px 5px 1px black,2px 1px 3px 2px #CDCDCD;
+    border-radius: 10px;
+    transform: translateY(20px);
+    position: absolute;
+    top: 0;
+    left: 30px;
+    transition: left 1.3s;
+  }
+  #form
+  {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  input[type="text"]
+  {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #3D62C7;
+    font-weight: 600;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 15px;
+    outline-color: #3D62C7;
+  }
+  input[type="password"]
+  {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #3D62C7;
+    margin-top: 8px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,50%);
+    font-size: 15px;
+    outline-color: #3D62C7;
+  }
+  ::placeholder
+  {
+    text-align: center;
+    color: #171B26;
+    font-weight: bold;
+  }
+  #submit
+  {
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,300%);
+    font-weight: bolder;
+    background-color: #184FE7;
+    border: none;
+    outline: none;
+    border-radius:5px;
+    cursor: pointer;
+    color: white;
+  }
+  h4
+  {
+    color: #555555;
+    transform: translateY(25px);
+  }
+  #btn
+  {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: #E81120;
+    text-align: center;
+  }
+  .fa
+  {
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    font-size: 22px;
+  }
+  #para
+  {
+   font-size: 18px;
+    color: red;
+    transform: translateY(90px);
+    
+  }
+  

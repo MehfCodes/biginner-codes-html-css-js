@@ -1,0 +1,76 @@
+#container
+{
+    width: 250px;
+    height: 800px;
+    border: 1px solid blue;
+    float: left;
+    box-sizing: border-box;
+}
+.menu p
+{
+    width: inherit;
+    margin: 10px 0 0 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 2px solid black;
+    margin-left: 0px;
+    padding:5px 0 5px 15px;
+    border-left: none;
+    border-right: none;
+}
+
+.spanShow
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    float: right;
+    margin: 5px 15px 0 0;
+    cursor: pointer;
+}
+.spanShow2
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    float: right;
+    margin: 5px 15px 0 0;
+    display: none;
+    cursor: pointer;
+}
+
+
+.hide
+{
+    display: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 10px 0 5 20px;
+    
+}
+.uls
+{
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-top: 0px;
+    
+}
+li
+{
+    margin: 10px 0px -10px -60;
+    border-bottom: 1px solid black;
+    padding:5px 0 8px 20;
+    text-align: left;
+    
+}
+li a
+{
+    color: black;
+    text-decoration: none;
+
+}

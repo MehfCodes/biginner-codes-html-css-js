@@ -1,0 +1,48 @@
+#menu
+{
+  width:150px;
+  height:200px;
+  border:2px solid black;
+  padding:10px 0 0 15px;
+  font-size:15px;
+  font-weight:bold;
+  font-family:sans-serif;
+  box-sizing:border-box;
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+  cursor:pointer;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:column;
+ 
+}
+
+.fas
+{
+  float:right;
+  margin-right:10px;
+  font-weight:bold;
+  font-size:18px;
+
+}
+.sub ,.sub2{
+  margin-top:8px;
+  display:none;
+  
+}
+.sub a,.sub2 a
+{
+  color:black;
+  text-decoration:none;
+  display:block;
+  font-size:13px;
+  margin-bottom:5px;
+  
+}
+
+.rotate
+{
+  transform:rotate(90deg);
+}

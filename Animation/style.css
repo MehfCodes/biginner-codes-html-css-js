@@ -1,0 +1,60 @@
+body
+{
+    background:rgb(167, 25, 148);
+}
+.container
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.circle-container
+{
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 10px;
+    top: 65%;
+    border-radius: 50%;
+    background: #fff;
+    animation: anim 2s linear infinite;
+    
+   
+}
+.circle-container .circle:nth-child(2){
+    animation-delay: -0.3s;
+}
+.circle-container .circle:nth-child(3){
+    animation-delay: -0.6s;
+}
+@keyframes anim
+{
+    0%{
+        transform-origin:400% 50% ;
+    }
+    25%{
+        transform-origin:400% 50% ;
+        transform: rotate(90deg) scale(1.1) ;
+    }
+    50%{
+        transform-origin:400% 50% ;
+        transform: rotate(180deg) scale(1.6); 
+    }
+   
+    75%{
+        transform-origin:400% 50% ;
+        transform: rotate(286deg) scale(1.2);
+    }
+    100%{
+        transform-origin:400% 50% ;
+        transform: rotate(360deg)  ;
+    }
+}

@@ -1,0 +1,132 @@
+body
+{
+    /*background-color:darkgrey;*/
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+
+#menu
+{
+    width: 100%;
+    max-height: 50px;
+    display: flex;
+    align-content: center;
+    border-bottom: 1px solid gray;
+    position: sticky;
+}
+
+#navbar
+{
+    width: inherit;
+    max-height: inherit;
+    border: 1px solid white;
+    background-color: #fff;
+    
+}
+
+#main-ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    list-style: none;
+    
+}
+ #main-ul li
+{
+    margin-right: 35px;
+    color: white;
+    
+}
+#main-ul li .right
+{
+    width: 120px;
+    list-style: none;
+    display: block;
+    
+    padding-bottom: 10px;
+    margin-top: 12px;
+    margin-left: -30px;
+   
+}
+
+
+.hidden li
+{
+    width: 160;
+    height: 30px;
+    
+    margin-bottom: 2px;
+    margin-left: -39.8px;
+    text-align: center;
+}
+#main-ul li .left
+{
+    width: 120px;
+    list-style: none;
+    display: block;
+    
+    padding-bottom: 10px;
+    margin-top: 13.1px;
+    margin-left: -30px;
+   
+}
+
+.left li a
+{
+    margin-right: 35px;
+    
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+        
+}
+.main-a
+{
+    font-weight:900;
+    margin-right: 35px;
+}
+.hidden a
+{
+    font-weight: 700;
+}
+
+.hidden li
+{
+    
+    display: none;
+    padding-top: 8px;
+}
+#main-ul li:hover  .main-a
+{
+    color: darkred;
+}
+#main-ul li:hover
+{
+    transform: scale(1.05);
+}
+#main-ul li:hover .hidden li
+{
+    display: block;
+    
+}
+#main-ul li:hover .hidden
+{
+    background-color: white;
+}
+
+#main-ul li:hover .hidden li:hover
+{
+   background-color: #2f3036;
+     transform: scale(1);
+    
+}
+#main-ul li:hover .hidden li:hover a
+{
+  color:#19c589;
+}

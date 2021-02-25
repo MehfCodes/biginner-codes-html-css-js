@@ -1,0 +1,43 @@
+.container
+{
+    width: 250px;
+    height:600px;
+    /*border: 1px solid black;*/
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 10px 0 0 15px;
+}
+.head
+{
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    text-indent: 6px;
+    border-bottom: 1px solid rgba(46, 46, 46, 0.842);
+    padding-bottom: 5px;
+    
+}
+.submenu
+{
+    background-color: rgba(197, 189, 189, 0.527);
+    margin: 0px 0 10px 0px;
+    box-sizing: border-box;
+    display: none;
+}
+.item
+{
+    text-indent: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px 0;
+    box-sizing: border-box;
+}
+.item:last-child
+{
+    border-bottom: 1px solid rgba(46, 46, 46, 0.842);
+}
+i
+{
+    float: right;
+    margin-right: 8px;
+}
